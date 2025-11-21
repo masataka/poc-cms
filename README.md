@@ -3,8 +3,8 @@
 Cloneしたあと、以下を実行
 
 - dockerを起動
-- directus/README.mdの手順の前半を実行
-- build-lume/README.mdの手順を実行
+- [directus/README.md](directus/README.md)の手順の前半を実行
+- [build-lume/README.md](build-lume/README.md)の手順を実行
 - directus/README.mdの手順の後半を実行
 - http://0.0.0.0:8055/ へアクセスする
 
