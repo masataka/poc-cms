@@ -9,6 +9,8 @@ Cloneしたあと、以下を実行
 - http://0.0.0.0:8055/ へアクセスする
 
 Directusのコンソールで、以下の型で取得できるコレクションを作る。
+コレクションを作ったあと、Directusのコンソールの設定 > Access Policies 画面でPublishルールに作ったコレクションを追加する。
+これはLumeからDirectus SDKを利用して接続する際の認証を不要とするために必要。
 
 ```typescript
 interface ReleaseNote {
